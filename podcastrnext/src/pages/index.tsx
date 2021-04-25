@@ -36,7 +36,7 @@ export default function Home({ lastEpisodes, allEpisodes }) {
         <title>Home | Podcastr</title>
       </Head>
       <section className={styles.lastEpisodes}>
-        <h2>últimos Lançamentos</h2>
+        <h2>Últimos Lançamentos</h2>
 
         <ul>
           {lastEpisodes.map((episode, index) => {
